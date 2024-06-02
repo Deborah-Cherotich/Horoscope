@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Yoda Me Astrology</title>
+
+
+    <link rel="shortcut icon" href="https://img.icons8.com/flat_round/64/000000/warranty-card.png" />
+</head>
+
+<body>
+
+<!-- horoscope choosing body // sign buttons -->
+    <section class="hero is-fullheight-with-navbar">
+        <div class="hero-body">
+            <div class="container">
+                <div class="center-align">
+                    <!-- <img id="nav-img" src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" -->
+                        <!-- width="200px" height="200px"> -->
+                    <br>
+                    <span class="nav-title">What Do The Stars Hold For You Today? </span>
+                    <p class="yoda">Explore your days potential </p>
+                </div>
+                <p class="title">
+                    Choose Your Zodiac Sign:
+                </p>
+
+                <!-- first 6 Horoscope signs: the button and the popups -->
+                <div class="columns">
+                    <div class="column">
+                        <div class="border">
+                            <img src="assets/Aquarius.jpeg" alt="icons" class="zodiac">
+                            <p>Jan 20 - Feb 18</p>
+                            <a class="trigger_popup_fricc aquaTrig" id="aquarius">Aquarius</a>
+                        </div>
+                    </div>
+                    <div class="hover_bkgr_fricc aquaHover">
+                        <span class="helper"></span>
+                        <div>
+                            <div class="popupCloseButton">&times;</div>
+                            <img src="./assets/picses.jpeg" alt="icons" width="200px" height="200px">
+                            <h2>Aquarius</h2>
+                            <h4></h4>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="border">
+                            <img src="./assets/picses.jpeg" alt="icons" class="zodiac">
+                            <p>Feb 19 - Mar 20</p>
+                            <a class="trigger_popup_fricc piscesTrig" id="pisces">Pisces</a>
+                        </div>
+                    </div>
+                    <div class="hover_bkgr_fricc piscesHover">
+                        <span class="helper"></span>
+                        <!-- <div>
+              <div class="popupCloseButton">&times;</div>
+              <img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="200px" height="200px">
+              <h2>Pisces</h2>
+              <h4></h4>
+            </div> -->
+                    </div>
+                    <div class="column">
+                        <div class="border">
+                            <img src="./assets/aries.jpeg" alt="icons" class="zodiac">
+                            <p>Mar 21 - Apr 19</p>
+                            <a class="trigger_popup_fricc ariesTrig" id="aries">Aries </a>
+                        </div>
+                    </div>
+                    <div class="hover_bkgr_fricc ariesHover">
+                        <span class="helper"></span>
+                        <!-- <div>
+              <div class="popupCloseButton">&times;</div>
+              <img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="200px" height="200px">
+              <h2>Aries </h2>
+              <h4></h4>
+            </div> -->
+                    </div>
+                    <div class="column">
+                        <div class="border">
+                            <img src="./assets/taurus.jpeg" alt="icons" class="zodiac">
+                            <p>Apr 20 - May 20</p>
+                            <a class="trigger_popup_fricc taurusTrig" id="taurus">Taurus </a>
+                        </div>
+                    </div>
+                    <div class="hover_bkgr_fricc taurusHover">
+                        <span class="helper"></span>
+                        <!-- <div>
+              <div class="popupCloseButton">&times;</div>
+              <img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="200px" height="200px">
+              <h2>Taurus</h2>
+              <h4></h4>
+            </div> -->
+                    </div>
+                    <div class="column">
+                        <div class="border">
+                            <img src="./assets/Gemini.jpeg" alt="icons" class="zodiac">
+                            <p>May 21 - Jun 20</p>
+                            <a class="trigger_popup_fricc geminiTrig" id="gemini">Gemini</a>
+                        </div>
+                    </div>
+                    <!-- <div class="hover_bkgr_fricc geminiHover">
+            <span class="helper"></span>
+            <div>
+              <div class="popupCloseButton">&times;</div>
+              <img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="200px" height="200px">
+              <h2>Gemini</h2>
+              <h4></h4>
+            </div>
+          </div> -->
+                    <div class="column">
+                        <div class="border">
+                            <img src="./assets/cancer.jpeg" alt="icons" class="zodiac">
+                            <p>Jun 21 - Jul 22</p>
+                            <a class="trigger_popup_fricc cancerTrig" id="cancer">Cancer</a>
+                        </div>
+                    </div>
+                    <div class="hover_bkgr_fricc cancerHover">
+                        <span class="helper"></span>
+                        <!-- <div>
+              <div class="popupCloseButton">&times;</div>
+              <img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="200px" height="200px">
+              <h2>Cancer</h2>
+              <h4></h4>
+            </div> -->
+                    </div>
+                </div>
+
+                <!-- second 6 Horoscope buttons on the landing page -->
+                <div class="columns">
+                    <div class="column">
+                        <div class="border">
+                            <img src="./assets/leo.jpeg" alt="icons" class="zodiac">
+                            <p>Jul 23 - Aug 22</p>
+                            <a class="trigger_popup_fricc leoTrig" id="leo">Leo</a>
+                        </div>
+                    </div>
+                    <div class="hover_bkgr_fricc leoHover">
+                        <span class="helper"></span>
+                        <!-- <div>
+              <div class="popupCloseButton">&times;</div>
+              <img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="200px" height="200px">
+              <h2>Leo</h2>
+              <h4></h4>
+            </div> -->
+                    </div>
+                    <div class="column">
+                        <div class="border">
+                            <img src="./assets/Virgo.jpeg" alt="icons" class="zodiac">
+                            <p>Aug 23 - Sep 22</p>
+                            <a class="trigger_popup_fricc virgoTrig" id="virgo">Virgo</a>
+                        </div>
+                    </div>
+                    <div class="hover_bkgr_fricc virgoHover">
+                        <span class="helper"></span>
+                        <!-- <div>
+              <div class="popupCloseButton">&times;</div>
+              <img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="200px" height="200px">
+              <h2>Virgo</h2>
+              <h4></h4>
+            </div> -->
+                    </div>
+                    <div class="column">
+                        <div class="border">
+                            <img src="./assets/libra.jpeg" alt="icons" class="zodiac">
+                            <p>Sep 23 - Oct 22</p>
+                            <a class="trigger_popup_fricc libraTrig" id="libra">Libra</a>
+                        </div>
+                    </div>
+                    <div class="hover_bkgr_fricc libraHover">
+                        <span class="helper"></span>
+                        <!-- <div>
+              <div class="popupCloseButton">&times;</div>
+              <img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="200px" height="200px">
+              <h2>Libra</h2>
+              <h4></h4>
+            </div> -->
+                    </div>
+                    <div class="column">
+                        <div class="border">
+                            <img src="./assets/scorpio.jpeg" alt="icons" class="zodiac">
+                            <p>Oct 23 - Nov 21</p>
+                            <a class="trigger_popup_fricc scorpioTrig" id="scorpio">Scorpio</a>
+                        </div>
+                    </div>
+                    <div class="hover_bkgr_fricc scorpioHover">
+                        <span class="helper"></span>
+                        <!-- <div>
+              <div class="popupCloseButton">&times;</div>
+              <img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="200px" height="200px">
+              <h2>Scorpio</h2>
+              <h4></h4>
+            </div> -->
+                    </div>
+                    <div class="column">
+                        <div class="border">
+                            <img src="./assets/Sagittarius.jpeg" alt="icons" class="zodiac">
+                            <p>Nov 22 - Dec 21</p>
+                            <a class="trigger_popup_fricc sagittariusTrig" id="sagittarius">Sagittarius</a>
+                        </div>
+                    </div>
+                    <div class="hover_bkgr_fricc sagittariusHover">
+                        <span class="helper"></span>
+                        <!-- <div>
+              <div class="popupCloseButton">&times;</div>
+              <img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="200px" height="200px">
+              <h2>Sagittarius</h2>
+              <h4></h4>
+            </div> -->
+                    </div>
+                    <div class="column">
+                        <div class="border">
+                            <img src="./assets/carpricorn.jpeg" alt="icons" class="zodiac">
+                            <p>Dec 22 - Jan 19</p>
+                            <a class="trigger_popup_fricc capricornTrig" id="capricorn">Capricorn</a>
+                        </div>
+                    </div>
+                    <div class="hover_bkgr_fricc capricornHover">
+                        <span class="helper"></span>
+                        <!-- <div>
+              <div class="popupCloseButton">&times;</div>
+              <img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="200px" height="200px">
+              <h2>Capricorn</h2>
+              <h4></h4>
+            </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h6 id="last-select"></h6>
+
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p id="footer">
+
+
+
+
+    <script src="./index.js"></script>            
+</body>
+
+</html>
